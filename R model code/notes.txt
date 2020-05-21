@@ -1,0 +1,2 @@
+log_post2 has Gaussian normalization term
+might be needed for ,atching test results
