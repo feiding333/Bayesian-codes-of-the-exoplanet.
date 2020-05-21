@@ -12,6 +12,9 @@ log_post <- function(for_post){
   mean_vec <- C
   if (num_planets>0){
     mean_vec <- numeric(length(y))
+    # add
+    mean_vec <- rep(C,length(y))
+    ## add above
     for (planet_k in 1:num_planets){
       mean_vec <- mean_vec + v(t,planet_paras[[planet_k]])
     }
